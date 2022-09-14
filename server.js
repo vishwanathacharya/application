@@ -21,7 +21,7 @@ const server = app.listen(
   )
 );
 
-app.get("/", (req, res) => res.send("API Running"));
+app.get("/", (req, res) => res.send("Good Job Your Test is SuccessFull RUN"));
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (err, promise) => {
